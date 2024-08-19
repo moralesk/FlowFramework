@@ -11,9 +11,9 @@ import Foundation
 public struct Flow: Sendable {
 
     /// Ordered list of steps in the Flow
-    public var steps: [WrappedStep]
+    public var steps: [WrappedFlowStep]
 
     public init(steps: [any FlowStep]) {
-        self.steps = steps.map { WrappedStep($0) }
+        self.steps = steps.map { WrappedFlowStep($0) }
     }
 }

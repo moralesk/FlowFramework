@@ -1,5 +1,5 @@
 //
-//  WrappedStep.swift
+//  WrappedFlowStep.swift
 //  FlowFramework
 //
 //  Created by Kelly Morales on 8/13/24.
@@ -9,7 +9,7 @@ import Foundation
 import SwiftUI
 
 /// Type erasure wrapper for proper Flow logic and navigation
-public struct WrappedStep: Identifiable, Hashable, Sendable {
+public struct WrappedFlowStep: Identifiable, Hashable, Sendable {
 
     // MARK: Properties
 
@@ -31,7 +31,7 @@ public struct WrappedStep: Identifiable, Hashable, Sendable {
 
     // MARK: Hashable
 
-    public static func == (lhs: WrappedStep, rhs: WrappedStep) -> Bool {
+    public static func == (lhs: WrappedFlowStep, rhs: WrappedFlowStep) -> Bool {
         lhs.id == rhs.id
     }
 

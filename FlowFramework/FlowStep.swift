@@ -14,7 +14,7 @@ public protocol FlowStep: Identifiable, Sendable {
 
     var id: UUID { get }
 
-    /// Used for Analytics
+    /// Human-readable name
     var name: String { get }
 
     /// Builds the View associated with this step

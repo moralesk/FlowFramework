@@ -41,7 +41,7 @@ struct ContentView: View {
             }
             .padding(.horizontal, 24)
             .padding(.bottom, 24)
-            .navigationDestination(for: WrappedStep.self, destination: { step in
+            .navigationDestination(for: WrappedFlowStep.self, destination: { step in
                 AnyView(step.view())
                     .navigationTitle(step.name)
                     .navigationBarTitleDisplayMode(.inline)

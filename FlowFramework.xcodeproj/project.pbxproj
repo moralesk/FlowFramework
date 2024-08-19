@@ -15,7 +15,7 @@
 		C9DD0A832C6BBC290032E2EC /* FlowFrameworkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DD0A822C6BBC290032E2EC /* FlowFrameworkUITestsLaunchTests.swift */; };
 		C9DD0A902C6BBC9D0032E2EC /* Flow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DD0A8F2C6BBC9D0032E2EC /* Flow.swift */; };
 		C9DD0A922C6BBCD10032E2EC /* FlowStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DD0A912C6BBCD10032E2EC /* FlowStep.swift */; };
-		C9DD0A942C6BBD010032E2EC /* WrappedStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DD0A932C6BBD010032E2EC /* WrappedStep.swift */; };
+		C9DD0A942C6BBD010032E2EC /* WrappedFlowStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DD0A932C6BBD010032E2EC /* WrappedFlowStep.swift */; };
 		C9DD0A962C6BBD4D0032E2EC /* FlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DD0A952C6BBD4D0032E2EC /* FlowCoordinator.swift */; };
 		C9DD0A992C6BBEB40032E2EC /* Step.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DD0A982C6BBEB40032E2EC /* Step.swift */; };
 		C9DD0A9B2C6BBEEC0032E2EC /* OtherStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DD0A9A2C6BBEEC0032E2EC /* OtherStep.swift */; };
@@ -54,7 +54,7 @@
 		C9DD0A822C6BBC290032E2EC /* FlowFrameworkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowFrameworkUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C9DD0A8F2C6BBC9D0032E2EC /* Flow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flow.swift; sourceTree = "<group>"; };
 		C9DD0A912C6BBCD10032E2EC /* FlowStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowStep.swift; sourceTree = "<group>"; };
-		C9DD0A932C6BBD010032E2EC /* WrappedStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrappedStep.swift; sourceTree = "<group>"; };
+		C9DD0A932C6BBD010032E2EC /* WrappedFlowStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrappedFlowStep.swift; sourceTree = "<group>"; };
 		C9DD0A952C6BBD4D0032E2EC /* FlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowCoordinator.swift; sourceTree = "<group>"; };
 		C9DD0A982C6BBEB40032E2EC /* Step.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step.swift; sourceTree = "<group>"; };
 		C9DD0A9A2C6BBEEC0032E2EC /* OtherStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherStep.swift; sourceTree = "<group>"; };
@@ -119,7 +119,7 @@
 				C9DD0A6B2C6BBC290032E2EC /* Preview Content */,
 				C9DD0A8F2C6BBC9D0032E2EC /* Flow.swift */,
 				C9DD0A912C6BBCD10032E2EC /* FlowStep.swift */,
-				C9DD0A932C6BBD010032E2EC /* WrappedStep.swift */,
+				C9DD0A932C6BBD010032E2EC /* WrappedFlowStep.swift */,
 				C9DD0A952C6BBD4D0032E2EC /* FlowCoordinator.swift */,
 			);
 			path = FlowFramework;
@@ -308,7 +308,7 @@
 				C9DD0A9D2C6BBF150032E2EC /* StepView.swift in Sources */,
 				C9DD0A682C6BBC280032E2EC /* ContentView.swift in Sources */,
 				C9DD0A662C6BBC280032E2EC /* FlowFrameworkApp.swift in Sources */,
-				C9DD0A942C6BBD010032E2EC /* WrappedStep.swift in Sources */,
+				C9DD0A942C6BBD010032E2EC /* WrappedFlowStep.swift in Sources */,
 				C9DD0A9F2C6BBF8F0032E2EC /* OtherStepView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
