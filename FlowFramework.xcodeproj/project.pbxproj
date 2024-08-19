@@ -11,9 +11,18 @@
 		C9DD0A682C6BBC280032E2EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DD0A672C6BBC280032E2EC /* ContentView.swift */; };
 		C9DD0A6A2C6BBC290032E2EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9DD0A692C6BBC290032E2EC /* Assets.xcassets */; };
 		C9DD0A6D2C6BBC290032E2EC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9DD0A6C2C6BBC290032E2EC /* Preview Assets.xcassets */; };
-		C9DD0A772C6BBC290032E2EC /* FlowFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DD0A762C6BBC290032E2EC /* FlowFrameworkTests.swift */; };
 		C9DD0A812C6BBC290032E2EC /* FlowFrameworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DD0A802C6BBC290032E2EC /* FlowFrameworkUITests.swift */; };
 		C9DD0A832C6BBC290032E2EC /* FlowFrameworkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DD0A822C6BBC290032E2EC /* FlowFrameworkUITestsLaunchTests.swift */; };
+		C9DD0A902C6BBC9D0032E2EC /* Flow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DD0A8F2C6BBC9D0032E2EC /* Flow.swift */; };
+		C9DD0A922C6BBCD10032E2EC /* FlowStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DD0A912C6BBCD10032E2EC /* FlowStep.swift */; };
+		C9DD0A942C6BBD010032E2EC /* WrappedStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DD0A932C6BBD010032E2EC /* WrappedStep.swift */; };
+		C9DD0A962C6BBD4D0032E2EC /* FlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DD0A952C6BBD4D0032E2EC /* FlowCoordinator.swift */; };
+		C9DD0A992C6BBEB40032E2EC /* Step.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DD0A982C6BBEB40032E2EC /* Step.swift */; };
+		C9DD0A9B2C6BBEEC0032E2EC /* OtherStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DD0A9A2C6BBEEC0032E2EC /* OtherStep.swift */; };
+		C9DD0A9D2C6BBF150032E2EC /* StepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DD0A9C2C6BBF150032E2EC /* StepView.swift */; };
+		C9DD0A9F2C6BBF8F0032E2EC /* OtherStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DD0A9E2C6BBF8F0032E2EC /* OtherStepView.swift */; };
+		C9DD0AA12C6BBFD90032E2EC /* FlowCoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DD0AA02C6BBFD90032E2EC /* FlowCoordinatorTests.swift */; };
+		C9DD0AA42C6BC3730032E2EC /* TestFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DD0AA32C6BC3730032E2EC /* TestFlow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +49,19 @@
 		C9DD0A692C6BBC290032E2EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9DD0A6C2C6BBC290032E2EC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C9DD0A722C6BBC290032E2EC /* FlowFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlowFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C9DD0A762C6BBC290032E2EC /* FlowFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowFrameworkTests.swift; sourceTree = "<group>"; };
 		C9DD0A7C2C6BBC290032E2EC /* FlowFrameworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlowFrameworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9DD0A802C6BBC290032E2EC /* FlowFrameworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowFrameworkUITests.swift; sourceTree = "<group>"; };
 		C9DD0A822C6BBC290032E2EC /* FlowFrameworkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowFrameworkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C9DD0A8F2C6BBC9D0032E2EC /* Flow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flow.swift; sourceTree = "<group>"; };
+		C9DD0A912C6BBCD10032E2EC /* FlowStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowStep.swift; sourceTree = "<group>"; };
+		C9DD0A932C6BBD010032E2EC /* WrappedStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrappedStep.swift; sourceTree = "<group>"; };
+		C9DD0A952C6BBD4D0032E2EC /* FlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowCoordinator.swift; sourceTree = "<group>"; };
+		C9DD0A982C6BBEB40032E2EC /* Step.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step.swift; sourceTree = "<group>"; };
+		C9DD0A9A2C6BBEEC0032E2EC /* OtherStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherStep.swift; sourceTree = "<group>"; };
+		C9DD0A9C2C6BBF150032E2EC /* StepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepView.swift; sourceTree = "<group>"; };
+		C9DD0A9E2C6BBF8F0032E2EC /* OtherStepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherStepView.swift; sourceTree = "<group>"; };
+		C9DD0AA02C6BBFD90032E2EC /* FlowCoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowCoordinatorTests.swift; sourceTree = "<group>"; };
+		C9DD0AA32C6BC3730032E2EC /* TestFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFlow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +112,15 @@
 		C9DD0A642C6BBC280032E2EC /* FlowFramework */ = {
 			isa = PBXGroup;
 			children = (
+				C9DD0A972C6BBEA40032E2EC /* SampleFlow */,
 				C9DD0A652C6BBC280032E2EC /* FlowFrameworkApp.swift */,
 				C9DD0A672C6BBC280032E2EC /* ContentView.swift */,
 				C9DD0A692C6BBC290032E2EC /* Assets.xcassets */,
 				C9DD0A6B2C6BBC290032E2EC /* Preview Content */,
+				C9DD0A8F2C6BBC9D0032E2EC /* Flow.swift */,
+				C9DD0A912C6BBCD10032E2EC /* FlowStep.swift */,
+				C9DD0A932C6BBD010032E2EC /* WrappedStep.swift */,
+				C9DD0A952C6BBD4D0032E2EC /* FlowCoordinator.swift */,
 			);
 			path = FlowFramework;
 			sourceTree = "<group>";
@@ -113,7 +136,8 @@
 		C9DD0A752C6BBC290032E2EC /* FlowFrameworkTests */ = {
 			isa = PBXGroup;
 			children = (
-				C9DD0A762C6BBC290032E2EC /* FlowFrameworkTests.swift */,
+				C9DD0AA22C6BC33E0032E2EC /* Mocks */,
+				C9DD0AA02C6BBFD90032E2EC /* FlowCoordinatorTests.swift */,
 			);
 			path = FlowFrameworkTests;
 			sourceTree = "<group>";
@@ -125,6 +149,25 @@
 				C9DD0A822C6BBC290032E2EC /* FlowFrameworkUITestsLaunchTests.swift */,
 			);
 			path = FlowFrameworkUITests;
+			sourceTree = "<group>";
+		};
+		C9DD0A972C6BBEA40032E2EC /* SampleFlow */ = {
+			isa = PBXGroup;
+			children = (
+				C9DD0A982C6BBEB40032E2EC /* Step.swift */,
+				C9DD0A9A2C6BBEEC0032E2EC /* OtherStep.swift */,
+				C9DD0A9C2C6BBF150032E2EC /* StepView.swift */,
+				C9DD0A9E2C6BBF8F0032E2EC /* OtherStepView.swift */,
+			);
+			path = SampleFlow;
+			sourceTree = "<group>";
+		};
+		C9DD0AA22C6BC33E0032E2EC /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				C9DD0AA32C6BC3730032E2EC /* TestFlow.swift */,
+			);
+			path = Mocks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +300,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9DD0A9B2C6BBEEC0032E2EC /* OtherStep.swift in Sources */,
+				C9DD0A902C6BBC9D0032E2EC /* Flow.swift in Sources */,
+				C9DD0A922C6BBCD10032E2EC /* FlowStep.swift in Sources */,
+				C9DD0A962C6BBD4D0032E2EC /* FlowCoordinator.swift in Sources */,
+				C9DD0A992C6BBEB40032E2EC /* Step.swift in Sources */,
+				C9DD0A9D2C6BBF150032E2EC /* StepView.swift in Sources */,
 				C9DD0A682C6BBC280032E2EC /* ContentView.swift in Sources */,
 				C9DD0A662C6BBC280032E2EC /* FlowFrameworkApp.swift in Sources */,
+				C9DD0A942C6BBD010032E2EC /* WrappedStep.swift in Sources */,
+				C9DD0A9F2C6BBF8F0032E2EC /* OtherStepView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +317,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9DD0A772C6BBC290032E2EC /* FlowFrameworkTests.swift in Sources */,
+				C9DD0AA12C6BBFD90032E2EC /* FlowCoordinatorTests.swift in Sources */,
+				C9DD0AA42C6BC3730032E2EC /* TestFlow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
